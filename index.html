@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Self Learning</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+
+<body>
+  <header class="image_fader">
+    <h1>Self-Learning</h1>
+  </header>
+
+ 
+  <style>
+   
+    @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+    body,
+    body * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      font-family: Verdana, sans-serif;
+    }
+
+    h1 {
+      font-family: 'Major Mono Display', monospace;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.50);
+      background-color: rgba(0, 0, 0, 0.50);
+      color: #FFF;
+      font-size: 2em;
+      line-height: 3em;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      line-height: 1.4em;
+      font-size: .7em;
+      width: 100vw;
+      padding: 0 2em;
+    }
+
+    /*THE ANIMATION STUFF*/
+    .image_fader {
+      min-width: 100vw;
+      min-height: 100vh;
+      background-size: cover;
+      background-attachment: fixed;
+      background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij01.jpg);
+      background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij01.jpg), url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij03.jpg), url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij02.jpg), url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij05.jpg), url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij06.jpg), url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij04.jpg);
+      animation-name: backgrounds;
+      animation-duration: 20s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+      animation-delay: 0s;
+    }
+
+    /*********************************************************************************************ANIMATIE BG*/
+
+    @-webkit-keyframes backgrounds {
+
+      0%,
+      15%,
+      100% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij01.jpg);
+      }
+
+      17%,
+      30% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij02.jpg);
+      }
+
+      32%,
+      47% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij03.jpg);
+      }
+
+      49%,
+      64% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij04.jpg);
+      }
+
+      66%,
+      81% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij05.jpg);
+      }
+
+      83%,
+      98% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij06.jpg);
+      }
+    }
+
+    @-moz-keyframes backgrounds {
+
+      0%,
+      15%,
+      100% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij01.jpg);
+      }
+
+      17%,
+      30% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij02.jpg);
+      }
+
+      32%,
+      47% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij03.jpg);
+      }
+
+      49%,
+      64% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij04.jpg);
+      }
+
+      66%,
+      81% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij05.jpg);
+      }
+
+      83%,
+      98% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij06.jpg);
+      }
+    }
+
+    @-o-keyframes backgrounds {
+
+      0%,
+      15%,
+      100% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij01.jpg);
+      }
+
+      17%,
+      30% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij02.jpg);
+      }
+
+      32%,
+      47% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij03.jpg);
+      }
+
+      49%,
+      64% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij04.jpg);
+      }
+
+      66%,
+      81% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij05.jpg);
+      }
+
+      83%,
+      98% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij06.jpg);
+      }
+    }
+
+    @keyframes backgrounds {
+
+      0%,
+      15%,
+      100% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij01.jpg);
+      }
+
+      17%,
+      30% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij02.jpg);
+      }
+
+      32%,
+      47% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij03.jpg);
+      }
+
+      49%,
+      64% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij04.jpg);
+      }
+
+      66%,
+      81% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij05.jpg);
+      }
+
+      83%,
+      98% {
+        background-image: url(http://helb.hosts1.ma-cloud.nl/voorbeelden/animated-background-css/images/ij06.jpg);
+      }
+    }
+
+    
+  </style>
+  
+
+  
+
+  <div class="Content">
+    
+    
+    <div class="maintxt">
+      
+      <p>Self-learning is defined as a method of garnering information and after processing and retaining it without
+        taking the help of another individual. It is the responsibility of the learner to learn and hold on to the
+        knowledge without the help of another human resource. It is a modern way of learning that helps a person to
+        teach himself skills and knowledge that will prove relevant to his daily activities. It has not replaced the
+        instructional learning process that has been used traditionally instead has become an extra key that will open
+        the doors of knowledge for everyone who is interested in acquiring it.</p>
+      <a href="photography.html" class="resume-btn">Photography</a>
+      <br>
+
+      <a href="AI.html" class="resume-btn">AI</a>
+      <br>
+
+
+      <a href="music.html" class="resume-btn">Music</a>
+      <br>
+
+      <a href="art.html" class="resume-btn">Art</a>
+      <br>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>

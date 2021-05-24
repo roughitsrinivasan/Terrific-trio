@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  p{
+    text-align: center;
+    font-family: Cursive, Brush Script MT,
+    Lucida Handwriting;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .first{
+    height: 100vw;
+    width: 100vw;
+    background: url(/pic1.jpg);
+    background-size: cover;
+  }
+  .second{
+    height: 100vw;
+    width: 100vw;
+    background: url(/second.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .third{
+    height: 100vw;
+    width: 100vw;
+    background: url(/violin.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+  }
+  .fourth{
+    height: 100vw;
+    width: 100vw;
+    background: url(./keyboard.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .fifth{
+    height: 100vw;
+    width: 100vw;
+    background: url(/guitar.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .sixth{
+    height: 100vw;
+    width: 100vw;
+    background: url(/flute.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .seventh{
+    height: 100vw;
+    width: 100vw;
+    background: url(/saxophone.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  img{
+     height: 500px;
+     width: 500px;
+     display: block;
+     position: absolute;
+     left: 400px;
+     float: left;
+  }

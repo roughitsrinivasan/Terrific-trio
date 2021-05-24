@@ -1,0 +1,161 @@
+html{
+    background:url(./.img6.jpg);
+    background-attachment: auto;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
+    color: black;
+  }
+  body, html {
+    height: 110%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Images used */
+  .img1{
+  height: 100vw;
+    width: 100vw;
+    background: url(./img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .img2{
+  height: 100vw;
+    width: 100vw;
+    background: url(./img2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .img3{
+  height: 100vw;
+    width: 100vw;
+    background: url(./img3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .img4{
+  height: 100vw;
+    width: 100vw;
+    background: url(./img4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .img5{
+  height: 100vw;
+    width: 100vw;
+    background: url(./img5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  .front{
+    height: 50vw;
+    width: 100vw;
+    background: url(./art.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .types{
+    height: 50vw;
+    width: 100vw;
+    background: url(./type1.jpg);
+    background: url(./type2.jpg);
+    background-size: cover;
+    color: white;
+  }
+  a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+  }
+  .crayon{
+    position: absolute ;
+    text-align: center;
+    bottom : 300px;
+    left : 550px ;
+    color: black;
+    font-size: 60px;
+    
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 5px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  .p1 {
+    font-family:Cursive,  Brush Script MT,
+  Lucida Handwriting;
+  font-size: 25px;
+  color: black
+  }
+  .menu li a:hover {
+    background-color: #23cdaf;
+    color: white;
+    box-shadow: 5px 10px 20px rgba(4, 50, 40, 0.4);
+    transition: all ease 0.2s;
+    border-radius: 40px;
+  }
+  .list li a:hover{
+    background-color: #23cdaf;
+    transition: all ease 0.2s;
+  }
+  
+  .column {
+    float: left;
+    width: 30.33%;
+    padding: 2px;
+  }
+  .oil{
+    position: absolute;
+    left: 350px;
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .menu-space li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  
+  li{
+    text-align: center;
+    color: red;
+  }
